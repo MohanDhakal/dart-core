@@ -1,11 +1,12 @@
-import 'package:new_project/level1/constants.dart';
-import 'package:new_project/level1/spread_oper.dart';
-import 'package:new_project/level1/variables.dart';
+import 'package:new_project/level1/functions.dart';
 
 void main() {
+  // enableFlags(bold: false,hidden: true);
+  defineUser('mohan', 'kathmandu',);
+  // checkControlFlow();
   // checkConst();
   // opDemo();
-  checkFinal();
+  // checkFinal();
 //   void printElement(int element) {
 //     print(element);
 //   }
