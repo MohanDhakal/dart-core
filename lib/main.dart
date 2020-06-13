@@ -1,4 +1,10 @@
+import 'package:new_project/level1/constants.dart';
+import 'package:new_project/level1/spread_oper.dart';
+import 'package:new_project/level1/variables.dart';
+
 void main() {
+  checkConst();
+  // opDemo();
 //   void printElement(int element) {
 //     print(element);
 //   }
@@ -18,5 +24,4 @@ void main() {
   // }
 
   // printSelectedNumber();
-
 }
