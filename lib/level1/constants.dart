@@ -11,4 +11,9 @@ void checkConst() {
   print(newList);
 }
 
-void checkFinal() {}
+void checkFinal() {
+  // final code = 'mkd123';
+  var list = [1, 2, 3,'mkd'];
+  final dynamic newList = [...list,1, 2, ...list];
+  print(newList);
+}

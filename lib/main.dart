@@ -3,8 +3,9 @@ import 'package:new_project/level1/spread_oper.dart';
 import 'package:new_project/level1/variables.dart';
 
 void main() {
-  checkConst();
+  // checkConst();
   // opDemo();
+  checkFinal();
 //   void printElement(int element) {
 //     print(element);
 //   }
