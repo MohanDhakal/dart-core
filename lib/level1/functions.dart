@@ -11,8 +11,11 @@ void enableFlags({bool bold = true, @required bool hidden}) {
   print(hidden);
 }
 
-void defineUser(String name, String address, [String gender='female']) {
+void defineUser(String name, String address, [String gender = 'female']) {
   print('this is $name ,i live in $address');
-  print((gender!=null)?'my gender is $gender':'');
+  print((gender != null) ? 'my gender is $gender' : '');
 }
+
+//arrow syntax for function
+int myFxn() => 1;
 
